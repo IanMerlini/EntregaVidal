@@ -1,0 +1,99 @@
+body {
+  background-color:#FFFCF4;
+  background-image: none;
+  background-size: cover;
+}
+
+#Barra_lateral {
+  background-color: #DBD3BE;
+  color: #000000;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 340px;
+}
+#Tela_canto{
+  background-image: url("img/canto_tela.gif");
+  height: 313px;
+  width: 340px;
+  margin-right: 10%;
+  padding-top: 80%;
+  padding-block: 70%;
+  background-size: cover;
+
+}
+
+#bt_link, #bt_back {
+  background-color: #1C9427;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  font-size: 18px;
+  margin: 5px;
+  margin-right: 20%;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 95%;
+  border-radius: 10px;
+  outline: none;
+  overflow: hidden;
+}
+
+#bt_link:hover, #bt_back:hover {
+  background-color: #4EB86C;
+  color: #ffffff;
+}
+
+#img{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #4EB86C;
+    cursor: pointer;
+    border-color: #4EB86C;
+}
+#Div1{
+  background-color: #1C9427  ;
+  padding: 5px;
+  font-family: sans-serif;
+  color: #FFFFFF;
+  border-radius: 10px;
+  width: 95%;
+  font-size: 18px;
+  padding: 5px;
+
+}
+#alterar{
+  background-color: #126219;
+  border-radius: 8px;
+  font-family: sans-serif;
+  color: #FFFFFF;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#linkContainer{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    background-color: #126219;
+    border-radius: 8px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    outline: none;
+    text-decoration: none;
+
+}

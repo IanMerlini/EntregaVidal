@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="home_adm.js"></script>
+    <link rel="stylesheet" href="home_adm.css">
+    <title>Document</title>
+
+    <style>
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+
+</head>
+<body>
+
+    <div id="linkContainer"></div>
+    <div id="Barra_lateral">
+        <div id="boas-vindas"></div>
+        <div id="lista-de-itens"></div>
+        <button id="bt_link" onclick="addLink()">Adicionar Link</button>
+        <form>
+            <div id="Div1">
+                <label for="imagem">Insira uma imagem:</label>
+                <input type="file" id="imagem" name="imagem">
+                <br><br>
+                <input type="button" value="Alterar Fundo de Tela" id= "alterar"onclick="alterarFundo()">
+            </div> 
+            <div id="Tela_canto"></div>
+        </form>
+            <div id="content">
+            <!-- Conteúdo da página -->
+            </div>
+    </div>
+</body>
+</html>
